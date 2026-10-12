@@ -1,0 +1,14 @@
+# Report output and raw query data: never commit real telemetry
+dns-report*/
+data.json
+*.json
+!zones.example.json
+
+# Credentials
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
